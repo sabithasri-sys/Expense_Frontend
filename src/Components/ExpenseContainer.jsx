@@ -1,6 +1,6 @@
 import React from "react"
 import { useEffect, useState } from "react"
-import ExpenseForm from "./Expenseform.jsx"
+import ExpenseForm from "./ExpenseForm.jsx"
 import '../index.css'
 import History from "./History.jsx"
 // import {stringify, v4 as uid} from "uuid"
