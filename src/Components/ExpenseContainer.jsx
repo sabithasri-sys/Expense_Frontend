@@ -88,7 +88,7 @@ function ExpenseContainer() {
 
   return (
     <div className='expense-container'>
-      <h3>Expense Tracker</h3>
+      <h1 style={{marginTop:"1px"}}>Expense Tracker</h1>
       <Balancecontainer expense={expense} />
       <History expense={expense} deleteExpense={deleteExpense} editExpense={editExpense} setItemToEdit={setItemToEdit}
       />
